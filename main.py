@@ -4,7 +4,7 @@ class Main:
 	def __init__(self):
 		self.detekos()
 		def menu(self):
-			print("""1. SMS Gratis 
+			print("""1. SMS Free 
 			         2. Matahari
 			         3. Halo Dokter
 			         4. OLX
@@ -21,7 +21,7 @@ class Main:
 			import src.olx
 		elif pilih == 5:
 			import src.socil
-		else: print("[!] Salah Ketik Goblok(o)");self.menu()
+		else: print("[!] Salah Ketik Tolol(o)");self.menu()
 		
 		def detekos(self):
 			#remove cache
@@ -37,4 +37,4 @@ class Main:
 						except KeyboardInterrupt:
 							exit('[Exit] Key interrupt')
 							except Exception as F:
-								print('Error Anjing: %s'%(F))
+								print('Error Lu Jelek: %s'%(F))
